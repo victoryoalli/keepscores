@@ -1,10 +1,5 @@
 # reactjs-boilerplate
-ReactJS initial setup for development
-
-## Instructions
-
-First of all initialize your project with `npm init`. Enter the requested values for your project.
-Then run at the command line the following commands
+ReactJS - Keep Game Scores
 
 #### React JS and Redux libraries
 
@@ -20,14 +15,3 @@ npm i --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react 
 
 After your file `package.json` is complete add the following lines.
 
-### package.json
-
-
-
-```javascript
-"scripts": {
-  "start": "node server.js",
-  "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register",
-  "test:watch": "npm test -- --watch"
-},
-```
