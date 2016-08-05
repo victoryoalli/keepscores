@@ -8,7 +8,6 @@ export default class PlayerScoreItem extends Component {
       <div className="score">
         <h3 className="player">{name}</h3>
         <div className="points">{points}</div>
-        <div className="id">{id}</div>
         <div className="controls">
           <button onClick={onDecrementClick}>-</button>{' '}
           <input defaultValue={1}/>{' '}
