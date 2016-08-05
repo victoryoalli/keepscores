@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import PlayerScore from './PlayerScore'
+import PlayerScoreItem from './PlayerScoreItem'
 
-export default class PlayersScores extends Component {
+export default class PlayersScoresList extends Component {
   constructor(props){
     super(props)
   }
@@ -11,7 +11,7 @@ export default class PlayersScores extends Component {
       <div>
       {scores.map(score => {
         score=score.toJS()
-        return <PlayerScore key={score.id} {...score} />
+        return <PlayerScoreItem key={score.id} {...score} />
       })}
       </div>
     )

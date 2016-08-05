@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class PlayerScore extends Component {
+export default class PlayerScoreItem extends Component {
   render(){
     const { id, name, points, onDecrementClick, onIncrementClick} = this.props
 

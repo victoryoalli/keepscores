@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PlayerScore from './Components/PlayerScore'
-import PlayersScores from './Components/PlayersScores'
+import PlayersScoresList from './Components/PlayersScoresList'
 
 export default class Root extends Component {
   constructor(props){
@@ -15,7 +14,7 @@ export default class Root extends Component {
           <input ref={ref=>this._input=ref}/> <button onClick={()=>onAddPlayerClick(this._input.value)}> add player </button>
         </div>
         <div>
-          <PlayersScores scores={scores} />
+          <PlayersScoresList scores={scores} />
         </div>
       </div>
     )
