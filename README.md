@@ -1,5 +1,4 @@
-# reactjs-boilerplate
-ReactJS - Keep Game Scores
+# ReactJS - Keep Game Scores
 
 #### React JS and Redux libraries
 
@@ -13,5 +12,4 @@ npm i --save react react-dom redux react-redux
 npm i --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-react-hmre babel-register cross-env enzyme express mocha expect express node-libs-browser react-addons-test-utils webpack webpack-dev-middleware webpack-hot-middleware
 ```
 
-After your file `package.json` is complete add the following lines.
 
